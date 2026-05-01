@@ -984,7 +984,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; col
 /* Tablet (≤960) */
 @media (max-width: 960px) {
   .nav { top: 14px; }
-  .nav__inner { padding: 8px 8px 8px 18px; }
+  .nav__inner { padding: 8px 8px 8px 18px; display: flex; justify-content: space-between; }
   .nav__pills { display: none; }
   .nav__right .nav__social { display: none; }
   .nav__brand-sub { display: none; }
